@@ -30,6 +30,18 @@ Additional features:
   - Open execution plan (.sqlplan)
   - Row highlighting based on Plan Insights
 - Save results to JSON and load from JSON (no DB hit)
+- Console log for status messages
+- About dialog
+- STA restart if needed
+- SecureString password handling
+- PowerShell 5.1 compatible
+- Uses System.Data.SqlClient
+-- Single script file
+- No external dependencies
+-- Easy to extend
+- MIT License
+- Author: Jake Morgan - Blackcat Data Services Limited - November 2025 - https://blackcat.wales
+- GitHub:  https://github.com/jakemorgangit/qsinsights
 #>
 
 Add-Type -AssemblyName System.Windows.Forms
